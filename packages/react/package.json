@@ -1,0 +1,36 @@
+{
+  "name": "@grupotop-ui/react",
+  "version": "1.0.0",
+  "description": "Grupo TOP User Interface to React",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "author": {
+    "name": "Patrick Pecegueiro",
+    "email": "heytick@icloud.com",
+    "url": "https://github.com/patrickpecegueiro"
+  },
+  "scripts": {
+    "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
+    "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch",
+    "lint": "eslint src/**/*.ts* --fix"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "@grupotop-ui/eslint-config": "*",
+    "@grupotop-ui/tokens": "*",
+    "@grupotop-ui/ts-config": "*",
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "react": "^18.2.0",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@radix-ui/react-avatar": "^1.0.2",
+    "@radix-ui/react-checkbox": "^1.0.3",
+    "@stitches/react": "^1.2.8",
+    "phosphor-react": "^1.4.1"
+  }
+}

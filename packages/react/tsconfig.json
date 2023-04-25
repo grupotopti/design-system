@@ -1,0 +1,4 @@
+{
+  "extends": "@grupotop-ui/ts-config/react.json",
+  "include": ["src"]
+}
