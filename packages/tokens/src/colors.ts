@@ -31,6 +31,16 @@ export const colors = {
   gold800: '#a98148',
   gold900: '#977340',
 
+  jungle100: '#8fa589',
+  jungle200: '#82967d',
+  jungle300: '#748570',
+  jungle400: '#616f5e',
+  jungle500: '#434d41',
+  jungle600: '#363d34',
+  jungle700: '#2d322c',
+  jungle800: '#202024',
+  jungle900: '#1b1b23',
+
   blue100: '#4454b5',
   blue200: '#243079',
   blue300: '#1b245b',

@@ -47,11 +47,11 @@ export const Button = styled('button', {
         },
       },
       default: {
-        background: '$orange700',
-        border: '$orange700 1px solid',
+        background: '$gold700',
+        border: '$gold700 1px solid',
         '&:hover': {
-          background: '$orange800',
-          border: '$orange800 1px solid',
+          background: '$gold800',
+          border: '$gold800 1px solid',
           transition: 'background-color 0.2s, border-color 0.2s',
         },
       },

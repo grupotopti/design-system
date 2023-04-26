@@ -23,7 +23,7 @@ export const PaginationContent = styled('div', {
   },
   [`a.active`]: {
     color: '$white',
-    backgroundColor: '$orange700',
+    backgroundColor: '$gold700',
     cursor: 'inherit',
   },
   [`a:hover:not(.active)`]: {

@@ -31,7 +31,7 @@ export const TableContainer = styled('table', {
   },
   [`tbody tr:hover`]: {
     [`td`]: {
-      background: '$orange900',
+      background: '$gold900',
       transition: 'background-color 0.2s',
     },
   },
