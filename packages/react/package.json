@@ -1,6 +1,6 @@
 {
   "name": "@grupotop-ui/react",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Grupo TOP User Interface to React",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
